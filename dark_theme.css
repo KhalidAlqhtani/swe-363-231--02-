@@ -1,0 +1,23 @@
+body.index{
+       background-color: black;
+       color: white;
+}
+table th, tr, td{ 
+       border: 1px solid white;                
+  }
+body.contact{
+       background-color: black;
+       color: white;
+}
+body.appointement{
+       background-color: black;
+       color: white;
+}
+body.hire_me{
+       background-color: black;
+       color: white;
+}
+body.thank_you_page{
+       background-color: black;
+       color: white;
+}

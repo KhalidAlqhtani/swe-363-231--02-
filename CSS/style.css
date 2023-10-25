@@ -1,3 +1,17 @@
 table th, tr, td{ 
        border: 1px solid black;                
   }
+  .top{
+     text-transform: uppercase;
+     background-color:#EB5406;
+  }
+  .URL{
+     color: green;
+  }
+  em{
+     color: blue;
+  }
+  #the_most_important{
+     text-transform: uppercase;
+     background-color: gold;
+  }

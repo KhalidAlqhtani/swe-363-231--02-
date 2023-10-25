@@ -1,17 +1,56 @@
 table th, tr, td{ 
        border: 1px solid black;                
   }
-  .top{
+.top{
      text-transform: uppercase;
      background-color:#EB5406;
   }
-  .URL{
+.URL{
      color: green;
   }
-  em{
+em{
      color: blue;
   }
-  #the_most_important{
+#the_most_important{
      text-transform: uppercase;
      background-color: gold;
   }
+h2{
+     font-family: sans-serif;
+  }
+h1,h2,h3,h4,h5,h6{
+     text-transform: capitalize;
+  }
+h2 + p::first-letter{
+     font-size: x-large;
+  }
+tr:hover > .top, tr:hover {
+     background-color: lightslategray !important;
+}
+nav li{
+     display: inline;
+}
+#first-nav{
+     text-underline-offset: 2px;
+} 
+nav a{
+     text-underline-offset: -2px;
+}
+tr:nth-child(odd){
+     background-color: lightcoral;
+}
+body *::selection{
+     background-color: yellow;
+}
+a{
+     cursor: pointer;
+}
+input{
+     height: 20px;
+}
+input[type=text]{
+     border-color: lightgrey;
+}
+input[name=message]{
+     height: 50px;
+}

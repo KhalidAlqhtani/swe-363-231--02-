@@ -3,20 +3,26 @@ table th, tr, td{
   }
 .top{
      text-transform: uppercase;
-     background-color:#EB5406;
+     background-color:#706e6e;
   }
 .URL{
-     color: green;
+     color: #333;
   }
 em{
-     color: blue;
+     color: black;
   }
 #the_most_important{
      text-transform: uppercase;
-     background-color: gold;
+     background-color: lightgrey;
   }
 h2{
-     font-family: sans-serif;
+     color: #333;
+     font-feature-settings: 'liga' off;
+     font-family: Inter;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
   }
 h1,h2,h3,h4,h5,h6{
      text-transform: capitalize;
@@ -34,13 +40,19 @@ nav li{
      text-underline-offset: 2px;
 } 
 nav a{
-     text-underline-offset: -2px;
+     color: #333;
+     font-family: Inter;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin: 10px;
 }
 tr:nth-child(odd){
-     background-color: lightcoral;
+     background-color: lightgray;
 }
 body *::selection{
-     background-color: yellow;
+     background-color: gray;
 }
 a{
      cursor: pointer;
@@ -53,4 +65,32 @@ input[type=text]{
 }
 input[name=message]{
      height: 50px;
+}
+h1{
+     color: #333;
+     font-feature-settings: 'liga' off;
+     font-family: Inter;
+     font-size: 60px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 76px;
+}
+p{
+     color: rgba(51, 51, 51, 0.80);
+     font-feature-settings: 'liga' off;
+     font-family: Inter;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+footer{
+     font-family: Inter;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+footer a{
+     margin: 15px;
 }

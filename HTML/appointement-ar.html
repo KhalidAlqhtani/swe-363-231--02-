@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html dir="rtl"> 
+     <head> 
+          <link rel="stylesheet" href="../CSS/style-ar.css">
+          <title>Raboo Najd Appointement</title> 
+     </head> 
+     <body class="appointement"> 
+          <h1>احجز موعد</h1> 
+          <hr>
+
+          <section>
+               <h2>ساعات العمل:</h2> 
+               <p> 
+                    صباحاً: من 7<sub>am</sub> الى 12<sub>pm</sub><br>
+                    مساء: من 3<sub>pm</sub> الى 8<sub>pm</sub> 
+               </p> 
+          </section>
+          <hr> 
+          <h2>الحجز:</h2> 
+          <form > 
+               <section>
+                    <label for="name">الاسم: </label> 
+                    <input type="text" id="name"> <br> 
+                    <label for="phone">رقم الهاتف:</label> 
+                    <input type="number" id="phone"> 
+               </section>
+                    
+               <section>
+                    <p>الفترة :</p> 
+                    <label for="morning">صباحاً</label> 
+                    <input type="radio" id="morning" name="period"> 
+                    <label for="evening">مساء</label> 
+                    <input type="radio" id="evening" name="period">
+               </section> 
+
+               <section>
+                    <p>اليوم:</p> <label for="sunday">الاحد</label> 
+                    <input type="radio" id="sunday" name="day"> 
+                    <label for="monday">الاثنين</label> 
+                    <input type="radio" id="monday" name="day"> 
+                    <label for="tuesday">الثلاثا</label> 
+                    <input type="radio" id="tuesday" name="day"> 
+                    <label for="wednesday">الاربعا</label> 
+                    <input type="radio" id="wednesday" name="day"> 
+                    <label for="thursday">الخميس</label> 
+                    <input type="radio" id="thursday" name="day"> 
+                    <label for="friday">الجمعه</label> 
+                    <input type="radio" id="friday" name="day"> 
+                    <label for="saturday">السبت</label> 
+                    <input type="radio" id="saturday" name="day"> 
+               </section>
+
+               <section>
+                    <p>كيف سمعت عنا? (اخيتاري)</p> 
+                    <label for="friend">صديق:</label> 
+                    <input type="checkbox" id="friend" name="friend"><br> 
+                    <label for="social">تواصل اجتماعي:</label> 
+                    <input type="checkbox" name="social" id="social"><br> 
+                    <label for="shop">ورشه اخرى</label> 
+                    <input type="checkbox" name="shop" id="shop"><br> 
+               </section>
+               <button type="submit">احجز</button> 
+          </form> 
+     </body> 
+</html> 

@@ -1,0 +1,96 @@
+table th, tr, td{ 
+       border: 1px solid black;                
+  }
+.top{
+     text-transform: uppercase;
+     background-color:#706e6e;
+  }
+.URL{
+     color: #333;
+  }
+em{
+     color: black;
+  }
+#the_most_important{
+     text-transform: uppercase;
+     background-color: lightgrey;
+  }
+h2{
+     color: #333;
+     font-feature-settings: 'liga' off;
+     font-family: Inter;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+  }
+h1,h2,h3,h4,h5,h6{
+     text-transform: capitalize;
+  }
+h2 + p::first-letter{
+     font-size: x-large;
+  }
+tr:hover > .top, tr:hover {
+     background-color: lightslategray !important;
+}
+nav li{
+     display: inline;
+}
+#first-nav{
+     text-underline-offset: 2px;
+} 
+nav a{
+     color: #333;
+     font-family: Inter;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin: 10px;
+}
+tr:nth-child(odd){
+     background-color: lightgray;
+}
+body *::selection{
+     background-color: gray;
+}
+a{
+     cursor: pointer;
+}
+input{
+     height: 20px;
+}
+input[type=text]{
+     border-color: lightgrey;
+}
+input[name=message]{
+     height: 50px;
+}
+h1{
+     color: #333;
+     font-feature-settings: 'liga' off;
+     font-family: Inter;
+     font-size: 60px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 76px;
+}
+p{
+     color: rgba(51, 51, 51, 0.80);
+     font-feature-settings: 'liga' off;
+     font-family: Inter;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+footer{
+     font-family: Inter;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+footer a{
+     margin: 15px;
+}

@@ -94,3 +94,10 @@ footer{
 footer a{
      margin: 15px;
 }
+button{
+     transition:background-color 3s;
+     transition-timing-function: linear;
+}
+button:hover{
+     background-color: #706e6e;
+}

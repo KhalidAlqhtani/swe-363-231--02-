@@ -1,0 +1,22 @@
+{
+  "name": "rabownajd",
+  "version": "1.0.0",
+  "description": "first version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhalidAlqhtani/swe-363-231-02.git"
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "khalid alqhtani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhalidAlqhtani/swe-363-231-02/issues"
+  },
+  "homepage": "https://github.com/KhalidAlqhtani/swe-363-231-02#readme"
+}

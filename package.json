@@ -11,5 +11,8 @@
     "package"
   ],
   "author": "kshk",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
 }
